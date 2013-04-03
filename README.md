@@ -46,6 +46,10 @@ By default Interspace also applies the letter-spacing value for us inline. We ca
     <h1>Interspace is <strong>atomic</strong>!</h1>
 
     $('h1').interspace({applyCSS: false});
+    
+Support
+-------
+I haven't done extensive testing yet. Seems to be working in current builds of Chrome and FF. Safari doesn't seem to like sub-pixel values so I'll need to take that into account.
 
 Word to the Wise
 ----------------
