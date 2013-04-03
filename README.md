@@ -49,6 +49,6 @@ By default Interspace also applies the letter-spacing value for us inline. We ca
 
 Word to the Wise
 ----------------
-This plugin is fairly ridiculous! If you apply it to your entire page literally every character will be wrapped in a `span` and css will be applied to it. This will certainly affect performance on text heavy sites. But hey, with great power comes great typesetting…
+This plugin is fairly ridiculous! While it indeed gives you precise tracking it does so at a cost. Semantically this thing wreaks havoc. There are also huge performance concerns; this thing is literally wrapping every character in a `span` and styling it! In many cases this will be ok (headers, captions, text-lightweight sites, etc) but just be wise. With great power comes great typesetting…
 
 [1]:http://jquery.com/
