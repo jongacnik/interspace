@@ -5,8 +5,6 @@ Interspace is a [jQuery][1] plugin which allows for sub-pixel finesse over lette
   
 It does this by wrapping every character within the selected element in a `<span class="intrspc"></span>` and applies a specified right margin. It also supports textnodes which include childnodes, so it shouldn't break your DOM.
 
-*Demo to come…*
-
 Options
 -------
 
