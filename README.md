@@ -30,8 +30,6 @@ We can adjust the letter-spacing by setting our `spacing` option:
     <h1>Interspace is <strong>atomic</strong>!</h1>
 
     $('h1').interspace({spacing: 0.8});
-        
-    <h1><span class="intrspc">I</span><span class="intrspc">n</span><span class="intrspc">t</span><span class="intrspc">e</span>...
 
 By default Interspace skips spaces. This is so you may adjust word-spacing with css to optimize performance. If you would like spaces to also be affected by interspace, simply set the `skipSpaces` option to false:
 
