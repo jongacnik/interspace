@@ -5,6 +5,8 @@ Interspace is a [jQuery][1] plugin which allows for sub-pixel finesse over lette
   
 It does this by wrapping every character within the selected element in a `<span class="intrspc"></span>` and applies a specified right margin. It also supports textnodes which include childnodes, so it shouldn't break your DOM.
 
+**Important!** Interspace only works on browsers that support sub-pixel measurements. This is current stable builds of Firefox and Chrome, as well as WebKit nightly. Hopefully we will see the support in Safari stable soon!
+
 Options
 -------
 
@@ -49,7 +51,7 @@ By default Interspace also applies the letter-spacing value for us inline. We ca
     
 Support
 -------
-I haven't done extensive testing yet. Seems to be working in current builds of Chrome and FF. Safari doesn't seem to like sub-pixel values so I'll need to take that into account.
+As written above, Interspace only works in browsers that support sub-pixel measurements. If we are lucky we will get to see sub-pixel values worked into letter-spacing soon! In the meantime I am going to be looking for a workaround.
 
 Word to the Wise
 ----------------
